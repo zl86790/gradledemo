@@ -26,7 +26,7 @@ pipeline {
 
     stage('Notification') {
       steps {
-        mail(subject: 'done', body: 'done', to: 'marshal_li_b@163.com', from: 'marshal_li_b@163.com', charset: 'utf8')
+        mail(subject: 'done', body: 'done', to: 'zhe.li4@pactera.com', from: 'marshal_li_b@163.com', charset: 'utf8')
       }
     }
 
